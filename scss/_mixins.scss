@@ -1,0 +1,17 @@
+@mixin reset {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin flex($align, $justify) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin radialGradient() {
+  background: radial-gradient();
+  background: -moz-radial-gradient();
+  background: -webkit-radial-gradient();
+}
